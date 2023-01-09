@@ -36,7 +36,6 @@ registerBlockType('udemy/night-mode', {
                         <FormToggle id='udem-recipe-night-mode-toggle' 
                                     checked={props.attributes.night_mode} 
                                     onChange= {()=> props.setAttributes({night_mode : !props.attributes.night_mode }) }>
-
                         </FormToggle>
                     </PanelRow>
                 </PanelBody>
